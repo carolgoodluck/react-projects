@@ -10,4 +10,7 @@ Also, restore the input textbox after adding a new task for better user experien
 3. The number of completed tasks is shown on the footer, a checkbox is used to select all tasks on the list, a button is applied to remove all completed tasks.
 4. Delete a single task.  
     When mouse hovers on a task, the item is highlighted in grey and a delete button appears. Click the button to delete the chosen task, a pop-up will show up to confirm the operation.  
-<img src="./item.png" width=500>
+<img src="./item.png" width=500>  
+
+
+Clone the project, cd to the document, "npm start" to run.  
