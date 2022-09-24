@@ -1,6 +1,7 @@
 # ----- Task Management App -----
 Here presents the ui.  
 <img src="./ui.jpg" width=500>  
+Users can use the app to manage their to-do-list. Adding a new task, removing existing ones, changing task status and etc.  
 Main functions:
 1. Dynamically displays a list of all tasks.  
 Each task has a checkbox on the left of its name, representing its completation status. Checked means it is completed.
