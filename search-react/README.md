@@ -18,8 +18,6 @@ c. Display status: Show the list of results after users input and click button. 
 d. Error status: It will show error information for unexpected response or internet.   
 <img src="./error.jpg" width=500>  
 
-  
-
 
 Clone the project, cd to the document, "npm start" to run.   
 (Sometimes the it might display irrelevant resutls, which is caused by GitHub search api. :( ) 
