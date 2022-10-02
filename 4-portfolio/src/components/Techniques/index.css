@@ -1,0 +1,81 @@
+.tech-box{
+    width: 100%;
+    height: 100%;
+}
+
+.tech-box .tech-container{
+    width: 100%;
+    height: 100%;
+}
+
+.tech-container h2{
+    text-align: center;
+}
+
+.tech-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.tech-row .skill-col{
+    display: flex;
+    flex-direction: column;
+    height: 100% !important;
+    text-align: center;
+}
+
+.skill-col img{
+    margin-top: 20px;
+    width: 30%;
+    height: 30%;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+.tech-row .project-col{
+    height: 100%;
+}
+
+.project-col h2{
+    margin-bottom: 20px;
+}
+
+.nav-tabs{
+    margin-top: 10px;
+}
+
+.nav-tabs .nav-item button{
+    color: rgb(186, 186, 203);
+}
+
+.project-item-container{
+    padding-left: 0;
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    text-align: justify;
+}
+
+.project-item-container .row{
+    padding-top: 8px;
+    width: 100%;
+    height: 60%;
+}
+
+.project-item-container .col-lg-5{
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.project-item-container img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0.7rem;
+}
+
+#calculator-img{
+    max-height: 400px;
+}
