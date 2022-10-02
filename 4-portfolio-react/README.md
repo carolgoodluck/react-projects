@@ -1,4 +1,5 @@
 # ----- Personal Website -----
+The portfolio is deployed on Netlify. [click here](https://carolhuang495-portfolio.netlify.app)  
 Here presents the ui.  
 <img src="./ui.jpg" width=500>  
 This is the home page of my personal website.  

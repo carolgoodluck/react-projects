@@ -21,11 +21,12 @@
 }
 
 .align-contact input{
-    margin-bottom: 20px;
+    margin-bottom: 10%;
 }
 
 .align-contact textarea{
     width: 85%;
+    margin-top: 0;
     margin-left: calc(.5 * var(--bs-gutter-x));
     margin-right: calc(var(--bs-gutter-x) * .5);
     min-height: 20vh;

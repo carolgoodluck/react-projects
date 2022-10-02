@@ -33,14 +33,10 @@ export default function Techniques() {
                 >
                 {projects.map((project)=>{
                   return (
-                    <Tab eventKey={project.id} title={project.title}>
+                    <Tab key={project.id} eventKey={project.id} title={project.title}>
                       {project.title==='Project1'?<Project1 />:project.title==='Project2'?<Project2/>:<Project3/>}
                     </Tab>)
                 })}
-
-          {/* <Tab eventKey="project1" title="Project 1">
-            <Project1 />
-          </Tab> */}
 
         </Tabs>
             </Col>

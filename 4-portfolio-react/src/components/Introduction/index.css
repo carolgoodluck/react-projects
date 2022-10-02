@@ -3,7 +3,6 @@
     height: fit-content;
     padding-top: 15vh;
     padding-bottom: 10vh;
-    padding-left: 10vh;
 } 
 
 .home .aligh-items-center{
@@ -19,6 +18,13 @@
     justify-content: center;
     align-items: center;
     font-size: 18px;
+}
+.greeting{
+    padding-left: 1rem;
+}
+
+.connect-btn{
+    margin-bottom: 0.7rem;
 }
 
 .home .photo-col{
@@ -39,8 +45,8 @@
 }
 
 button{
-    background-color: cornflowerblue;
-    opacity: 0.9;
+    background-color: antiquewhite;
+    opacity: 0.65;
     color: rgb(8, 8, 91);
     border:10px;
     border-radius: 10%;
@@ -53,8 +59,6 @@ button{
     animation: leftright 3s linear infinite;
 }
 
-
-/* 上下跳 */
 @keyframes leftright {
     0% {
         transform: translateX(-5px);

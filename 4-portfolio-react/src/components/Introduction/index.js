@@ -3,8 +3,6 @@ import { Container, Row, Col, Nav} from 'react-bootstrap'
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-// import headphoto from './headphoto.svg'
-// import 'animate.css';
 import './index.css'
 
 export default function Introduction() {
@@ -37,12 +35,8 @@ export default function Introduction() {
     };
 
   useEffect(()=>{
-    const timer = setInterval(()=>{display()}, 300);
-    return ()=>{clearInterval(timer)}
-  }, [idx])
-
-  const display = ()=>{
-    const len = showInfo.length;
+    const timer = setInterval(()=>{
+      const len = showInfo.length;
     // 表示已显示完,停留2s，重新写入过程
     if (idx === len+1){
       setIdx(0);
@@ -52,7 +46,9 @@ export default function Introduction() {
       setText(showInfo.substring(0,idx))
       setIdx(idx+1);
     }
-  }
+    }, 300);
+    return ()=>{clearInterval(timer)}
+  }, [idx])
 
   const handleMouse = ()=>{
     setMouseEnter(!isMouseEnter)
